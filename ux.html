@@ -5,83 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
     <title>Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 </head>
 
 <body>
+
    <header>
-        <div class="logo_container">
-               <a href="index.html"><img src="img/logo/Mlogo.jpg" alt="image" class="logo">
-               </a>
+              <div class="logo_container">
+            <a href="index.html"><img src="img/logo/Mlogo.jpg" alt="image" class="logo">
+            </a>
         </div>
-       <nav>
+
+       <nav id="navigation">
 
             <a href="webdesign.html">Webdesign</a>
             <a href="video.html">Video</a>
             <a href="animation.html">Animation</a>
             <a href="ux.html">UX</a>
-            <a href="om.html">Om mig</a>
             <a href="process.html">Process</a>
+            <a href="om.html">Om mig</a>
+
        </nav>
+
+       <div id="burger">
+           <div class="bar1"></div>
+           <div class="bar2"></div>
+           <div class="bar3"></div>
+       </div>
+
    </header>
 
-    <section class="home">
+    <section id="ux_page">
+
+    <div class="home">
+
         <div class="uppertext">
-            <h2>UX</h2>
+
+                <h2>UX</h2>
         </div>
 
-    </section>
-
-    <section class="content">
-        <div class="container_left">
-        <img src="img/ux_frontpage.jpg" alt="image" class="images_describe">
-        </div>
-
-        <div class="container_right">
-            <h3>Grundläggande UX</h3>
-            <p>vecka 47 - 50</p>
-             <p>Vi arbetade under fyra veckor med två olika projekt. Vi skulle designa appar till båda projekten. Den ena var till KEA och den andra var till Republikken. Det här temat handlade mycket om användarvänlighet. Hur man på bästa sätt kan skapa en produkt som är enkel och snabb att navigera sig runt på och samtidigt inte tappar vad man vill förmedla och få ut av produkten.</p>
-        </div>
-
-    </section>
+    </div>
 
     <section class="content">
+    <div class="content_over">
+
         <div class="container_left">
-            <a href=""><img src="img/keaapp.jpg" alt="image" class="images_describe"></a>
+
+            <h2>Grundläggande UX</h2>
+
+              <p>Vi arbetade under fyra veckor med två olika projekt. Vi skulle designa appar till båda projekten. Den ena var till KEA och den andra var till Republikken. Det här temat handlade mycket om användarvänlighet. Hur man på bästa sätt kan skapa en produkt som är enkel och snabb att navigera sig runt på och som samtidigt på ett tydligt sätt kan få fram vad man vill förmedla och få ut av produkten. Vi arbetade med programmet XD för att göra protoyper till våra appar.</p>
+
         </div>
+
         <div class="container_right">
-           <h3>Kea app design</h3>
-           <div class="text_lower">
-        <div class="button">
-            <a href="http://magnuskea.dk/kea/04-ux/gruppe13/presentation/index.html">KEA APP Presentationssite</a>
-        </div>
-        <div class="button">
-            <a href="http://ceciliedk.dk/kea/04-UX/doc/Doc.html">KEA APP Dokumentationsssite</a>
-        </div>
-        </div>
+
+            <img src="img/ux_frontpage.jpg" class="images_describe" alt="image">
 
         </div>
+
+    </div>
+        <h3>Projekt</h3>
+    <div class="content_under_image">
+
+
+
+
+            <div class="box">
+
+            <div class="text_box1">
+              <a href="http://ceciliedk.dk/kea/04-UX/doc/Doc.html"><h2>Kea App</h2>
+
+            </a>
+
+            </div>
+            </div>
+
+        <div class="box">
+
+            <a href="http://magnuskea.dk/kea/04-ux/gruppe13/presentation/index.html"><img src="img/kea_app.jpg" alt="image">
+            </a>
+            </div>
+<!--
+            <div class="text_box">
+            <h4>Presentationssite</h4>
+            </div>
+-->
+
+
+        <div class="box">
+
+
+            <div class="text_box1">
+            <a href="http://ceciliedk.dk/kea/04-UX/virksomhed/docsite2/doc.html"><h2>Republikken</h2>
+            </a> <p>dokumentationssite</p>
+            </div>
+        </div>
+        <div class="box">
+
+            <a href="http://www.annbeatrice.com/kea/04-ux/presentation/"><img src="img/republikken_app.jpg" alt="image">
+            </a> </div>
+<!--
+            <div class="text_box">
+            <h4>Presentationssite</h4>
+            </div>
+-->
+
+
+
+        </div>
+
+
+        </section>
     </section>
+    <footer><p>Beatrice Johansson</p><p> Multimediedesign 2018</p></footer>
 
-        <section class="content">
-        <div class="container_left">
-            <a href=""><img src="img/Rsocial.jpg" alt="image" class="images_describe"></a>
-        </div>
-        <div class="container_right">
-           <h3>Kundcase (Republikken)</h3>
-           <div class="text_lower">
-            <div class="button">
-            <a href="http://www.annbeatrice.com/kea/04-ux/presentation/">Republikken Presentation</a>
-        </div>
-          <div class="button">
 
-            <a href="http://ceciliedk.dk/kea/04-UX/virksomhed/docsite2/doc.html">Republikken Dokumentatiossite</a>
-        </div>
+    <script src="javascript.js"></script>
 
-        </div>
-
-        </div>
-    </section>
-    <footer></footer>
-    <script src=""></script>
 </body>
+
 </html>

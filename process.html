@@ -5,48 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
     <title>Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
+       <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 </head>
 
 <body>
+
    <header>
-        <div class="logo_container">
-               <a href="index.html"><img src="img/logo/Mlogo.jpg" alt="image" class="logo">
-               </a>
+              <div class="logo_container">
+            <a href="index.html"><img src="img/logo/Mlogo.jpg" alt="image" class="logo">
+            </a>
         </div>
-       <nav>
+
+       <nav id="navigation">
 
             <a href="webdesign.html">Webdesign</a>
             <a href="video.html">Video</a>
             <a href="animation.html">Animation</a>
             <a href="ux.html">UX</a>
-            <a href="om.html">Om mig</a>
             <a href="process.html">Process</a>
-       </nav>
-   </header>
+            <a href="om.html">Om mig</a>
 
-    <section class="home">
+       </nav>
+
+       <div id="burger">
+           <div class="bar1"></div>
+           <div class="bar2"></div>
+           <div class="bar3"></div>
+       </div>
+
+   </header>
+<section id="process_page">
+
+       <div class="home">
         <div class="uppertext">
             <h2>Process</h2>
         </div>
         <div class="image_container">
 
-            <a href="video.html"><img src="img/earth.jpg" alt="image" class="images">
+            <a href="video.html"><img src="img/styletile_portfolio.jpg" alt="image" class="images">
             </a>
-            <a href="https://docs.google.com/presentation/d/1G1MPJ1xaK6Y0nde9nxqrFYTI4raRTaofSZtsnrz4F9Q/edit?usp=sharing"><img src="img/moodboard-01.jpg" alt="image" class="images"></a>
-            <a href="animation.html"><img src="img/earth.jpg" alt="image" class="images">
-            </a>
+            <a href="https://docs.google.com/presentation/d/1wyfNkxt-ohtONcehiDFBvvLQ49xjHFrlhIBpQeWBT7g/edit?usp=sharing"><img src="img/kodningsprocess.jpg" alt="image" class="images"></a>
+
 
         </div>
-    </section>
+    </div>
 
-    <section class="presenter" class="">
-        <div class="text_upper">
-        </div>
-        <div class="text_lower">
+</section>
+<footer>
+  <p>Beatrice Johansson</p><p> Multimediedesign 2018</p></footer>
 
-        </div>
-    </section>
-<footer></footer>
-    <script src=""></script>
+    <script src="javascript.js"></script>
 </body>
 </html>

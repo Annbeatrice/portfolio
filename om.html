@@ -5,26 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
     <title>Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
+       <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 </head>
 
 <body>
    <header>
-        <div class="logo_container">
-               <a href="index.html"><img src="img/logo/Mlogo.jpg" alt="image" class="logo">
-               </a>
+              <div class="logo_container">
+            <a href="index.html"><img src="img/logo/Mlogo.jpg" alt="image" class="logo">
+            </a>
         </div>
-       <nav>
+
+       <nav id="navigation">
 
             <a href="webdesign.html">Webdesign</a>
             <a href="video.html">Video</a>
             <a href="animation.html">Animation</a>
             <a href="ux.html">UX</a>
-            <a href="om.html">Om mig</a>
             <a href="process.html">Process</a>
-       </nav>
-   </header>
+            <a href="om.html">Om mig</a>
 
-    <section class="home">
+       </nav>
+
+       <div id="burger">
+           <div class="bar1"></div>
+           <div class="bar2"></div>
+           <div class="bar3"></div>
+       </div>
+
+   </header>
+<section id="ommig_page">
+    <div class="home">
         <div class="uppertext">
 
             <h2>Om mig</h2>
@@ -33,37 +46,51 @@
 
 
 
-    </section>
+    </div>
 
-    <section class="content">
+    <div class="content_over">
         <div class="container_left">
+          <h2>Beatrice Johansson</h2>
+           <p>Jag är född och uppvuxen i Umeå i norra Sverige var jag läste Arena-programmet på Midgårdsskolan som är inriktat mot kultur, media och entreprenörskap. Jag flyttade sedan utomlands till bland annat Malta där jag studerade engelska. Efter det arbetade jag några månader i Spanien för att sedan hamna i England var jag arbetade som bartender i ett år. 2013 flyttade jag till Köpenhamn och efter några år som barnpassare började jag studera igen. 2016 läste jag kursen Musik & skapande, kommunikation och var samtidigt ute på olika events och spelade musik då detta är ett av mina största intressen. Under kursen Musik & skapande, kommunikation skrev jag en rapport om genus inom musikbranschen var jag undersökte hur svenska artister marknadsför sig själva sett ur ett genusperspektiv. Efter kursens avslut kom jag in på multimediedesigner på KEA i Köpenhamn.</p>
 
-        <img src="img/ommig_frontpage.jpg" class="images_describe">
+
 
         </div>
         <div class="container_right">
-          <h3>Beatrice Johansson</h3>
-           <p>Jag kommer från Umeå i norra Sverige men har bott i Köpenhamn i över 4 år nu. Jag flyttade hit efter några års resande runt i Europa. Jag har bott på Malta, i Spanien, i England och nu har jag alltså hamnat här i Köpenhamn. Jag har i många år hållit på med musik, både skrivit och spelat. Jag har uppträtt på många olika tillställningar, allt från stora scener, såsom Norrlandsoperan i Sverige, till små källarbarer i hjärtat av Paris.</p>
-
-        </div>
-        </section>
-        <section class="content">
-           <div class="container_left">
-            <a href="webdesign.html"><img src="img/noter.jpg" alt="image" class="images_describe">
-            </a>
-            </div>
-            <div class="container_right">
-
+            <img src="img/ommig_frontpage.jpg" class="images_describe">
+            <div class="text_box">
+           <p>Kontakt:<p>
             <p>Beatrice Johansson</p>
             <p>Mobil: +4542369003</p>
             <p>Mail: annx9371@stud.kea.dk</p>
             </div>
-        </section>
+        </div>
+        <div class="content_under_image">
+            <div class="box">
+
+                <a href="img/Processdokument.pdf"> <img src="img/photoshopopgave.jpg" alt="image">
+                </a>
+               <div class="text_box">
+
+                <h4>Double exposure i Photoshop.
+
+                </h4>
+
+                <p>Det här var den första uppgiften jag gjorde i Photoshop och insåg här vad mycket man kan göra med hjälp av de verktyg vi får på multimediedesignutbildningen.</p>
+
+            </div>
+            </div>
+            <div class="box">
 
 
+            </div>
+        </div>
+        </div>
+</section>
     <footer>
-
+<p>Beatrice Johansson</p><p> Multimediedesign 2018</p>
     </footer>
-    <script src=""></script>
+
+    <script src="javascript.js"></script>
 </body>
 </html>

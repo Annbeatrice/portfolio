@@ -5,99 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
     <title>Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
+       <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
 </head>
 
 <body>
    <header>
-        <div class="logo_container">
-               <a href="index.html"><img src="img/logo/Mlogo.jpg" alt="image" class="logo">
-               </a>
+              <div class="logo_container">
+            <a href="index.html"><img src="img/logo/Mlogo.jpg" alt="image" class="logo">
+            </a>
         </div>
-       <nav>
+
+       <nav id="navigation">
 
             <a href="webdesign.html">Webdesign</a>
             <a href="video.html">Video</a>
             <a href="animation.html">Animation</a>
             <a href="ux.html">UX</a>
-            <a href="om.html">Om mig</a>
             <a href="process.html">Process</a>
+            <a href="om.html">Om mig</a>
+
        </nav>
+
+       <div id="burger">
+           <div class="bar1"></div>
+           <div class="bar2"></div>
+           <div class="bar3"></div>
+       </div>
+
    </header>
 
-    <section class="home">
+    <section id="animation_page">
+
+    <div class="home">
         <div class="uppertext">
 
             <h2>Animation</h2>
 
         </div>
-    </section>
-        <section class="content">
+    </div>
+
+    <div class="content_over">
+
         <div class="container_left">
+
+               <h2>Grundläggande animation</h2>
+
+                <p>Under grundläggande animation blev vi introducerade till bland annat illustrator och javascript. Detta för att kunna använda animation till webdesign. Vi fick i illustrator arbeta med pentool för att lära oss att visuellt designa animation men även att implementera detta i kodning med hjälp av html, css och javascript. Vi fick även under detta tema arbeta med en riktig kund, Sex & samfund.
+                </p>
+
+        </div>
+
+        <div class="container_right">
+
             <img src="img/animation_frontpage.jpg" alt="image" class="images_describe">
-        </div>
-
-        <div class="container_right">
-           <h3>Grundläggande animation</h3>
-           <p>vecka 42 - 46</p>
-            <p>Under fem veckor arbetade vi med animation var vi blev introducerade till både illustrator på javascript. Detta för att kunna använda animation till webdesign. Vi fick lära oss att visuellt designa animation men även att implementera detta i kodning. Vi fick även under detta tema arbeta med en riktig kund (Sex & samfund).</p>
-        <div class="text_lower">
 
         </div>
+
+    </div>
+
+
+          <h3>Projekt</h3>
+      <div id="sidenote"></div>
+    <div class="content_under_image">
+
+        <div class="box">
+
+
+        <div class="text_box1">
+        <a href="img/skitser_rentegning_egenanimation.pdf"><h2>Egen animation</h2> </a>
+        <p>karaktärdesign og skitser</p>
+        </div>
+        </div>
+
+        <div class="box">
+
+            <a href="img/02_03_04_Endelig_aflevering_AnnBeatriceJohansson.pdf"><img src="img/jordgubbar.jpg" alt="image"> </a>
+            <div class="text_box">
+            <h4>Egen animation</h4>
+            <p>Klicka för att se den färdiga berättelsen.</p>
+
+
+        </div>
+        </div>
+                <div class="box">
+
+
+            <a href="http://benjaminbonnichsen.dk/kea/02-animation/02_04_03_gruppe-1_dokumentationssite/"><img src="img/Dokumentationssite.jpg"></a>
+             <div class="text_box">
+                <h4>Sex & samfund</h4>
+                <p>Dokumentationssite</p>
+             </div>
+
+        </div>
+
+        <div class="box">
+
+            <a href="http://benjaminbonnichsen.dk/kea/02-animation/02_04_03_gruppe-1_dokumentationssite/#animation"><img src="img/earth_blue_02.jpg" alt="image"> </a>
+
+            <div class="text_box">
+            <h4>Sex & samfund.</h4>
+            <p> Färdig animation.</p>
+
+
+        </div>
+        </div>
+
+
 
         </div>
 
     </section>
-    <section class="content">
-        <div class="container_left">
-            <a href="img/skitser_rentegning_egenanimation.pdf"><img src="img/sketches_myanima.jpg" alt="image" class="images_describe"> </a>
-        </div>
 
-        <div class="container_right">
-           <h3>Egen animation</h3>
-            <p>Karakterdesign og skitser.</p>
-            <p>Rentegnede karakterer og scenografi.</p>
+    <footer><p>Beatrice Johansson</p><p> Multimediedesign 2018</p></footer>
 
 
-        </div>
-    </section>
-
-        <section class="content">
-
-            <div class="container_left">
-                <a href="img/02_03_04_Endelig_aflevering_AnnBeatriceJohansson.pdf"><img src="img/jordgubbar.jpg" alt="image" class="images_describe"> </a>
-            </div>
-
-            <div class="container_right">
-
-                <p>Den færdige fortælling.</p>
-
-
-            </div>
-
-    </section>
-
-            <section class="content">
-
-            <div class="container_left">
-                <a href="http://benjaminbonnichsen.dk/kea/02-animation/02_04_03_gruppe-1_dokumentationssite/#animation"><img src="img/earth_blue_02.jpg" alt="image" class="images_describe"> </a>
-            </div>
-
-            <div class="container_right">
-                <h3>Gruppeprojekt for Sex & Samfund</h3>
-                        <div class="text_lower">
-
-        <div class="button">
-            <a href="http://benjaminbonnichsen.dk/kea/02-animation/02_04_03_gruppe-1_dokumentationssite/">Dokumenationssite</a>
-        </div>
-        </div>
-
-
-            </div>
-
-
-
-    </section>
-    <footer></footer>
-    <script src=""></script>
+    <script src="javascript.js"></script>
 </body>
+
 </html>
